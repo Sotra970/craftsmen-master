@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+            />
+
+    </FrameLayout>
+    <android.support.v7.widget.CardView
+        android:layout_gravity="bottom"
+        app:cardBackgroundColor="@color/gray50"
+        app:contentPadding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:textColor="@color/white"
+                android:onClick="pin_it"
+                android:text="pin it"
+                android:background="@drawable/sec_btt"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+     <Button
+         android:onClick="cancel_req"
+         android:text="cancel"
+         android:background="@drawable/white_btt"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:layout_marginRight="24dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="108dp"
+        android:elevation="6dp"
+        android:background="@drawable/white_circle"
+        android:src="@drawable/ic_my_location_black_36dp"
+        android:id="@+id/current_location"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+
+    <FrameLayout
+        android:visibility="gone"
+        android:clickable="true"
+        android:id="@+id/loadingSpinner"
+        android:elevation="12dp"
+        android:background="@color/scrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+
+
+
+</FrameLayout>

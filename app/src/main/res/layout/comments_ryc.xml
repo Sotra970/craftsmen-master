@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardUseCompatPadding="true"
+    app:cardElevation="1dp"
+android:layout_marginBottom="4dp"
+android:orientation="vertical"
+app:cardBackgroundColor="@color/white"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/comment_item_creator_img"
+            android:layout_margin="8dp"
+            android:src="@drawable/craftsmen"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+       <LinearLayout
+           android:layout_gravity="center"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_marginRight="8dp"
+               android:layout_marginLeft="8dp"
+               android:id="@+id/comment_item_creator_name"
+               android:textSize="16sp"
+               android:layout_gravity="center"
+               android:text="عمر حاتم"
+               android:gravity="left"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:textStyle="bold"
+               android:textColor="@color/black"
+               android:layout_marginRight="8dp"
+               android:layout_marginLeft="8dp"
+               android:id="@+id/comment_item_time"
+               android:textSize="12sp"
+               android:layout_gravity="center"
+               android:text="عمر حاتم"
+               android:gravity="left"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+
+       </LinearLayout>
+    </LinearLayout>
+    <TextView
+            android:text="@string/comments_ryc_comment"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="8dp"
+        android:paddingLeft="72dp"
+        android:paddingRight="72dp"
+        android:id="@+id/comment_item_desc"
+        android:textSize="16sp"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</android.support.v7.widget.CardView>

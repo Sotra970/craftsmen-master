@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.Toolbar
+        app:title="@string/app_name"
+        app:titleTextColor="@color/colorScondaryText"
+        app:titleMarginStart="24dp"
+        app:layout_scrollFlags="enterAlways|scroll"
+        android:id="@+id/MainActivity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"/>
+    <android.support.design.widget.TabLayout
+        app:tabIndicatorColor="@color/colorScondaryText"
+        app:tabSelectedTextColor="@color/colorScondaryText"
+        app:tabTextColor="@color/colorScondaryText"
+        android:id="@+id/MainActivity_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</android.support.design.widget.AppBarLayout>
+
+<FrameLayout
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/lo2"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:background="@color/scrim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:elevation="3dp"
+        android:id="@+id/MainActivity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

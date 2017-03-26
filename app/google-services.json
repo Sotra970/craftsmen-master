@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "211013669069",
+    "firebase_url": "https://craftsmen-8d22e.firebaseio.com",
+    "project_id": "craftsmen-8d22e",
+    "storage_bucket": "craftsmen-8d22e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211013669069:android:7ed95059e541b388",
+        "android_client_info": {
+          "package_name": "com.craftsmen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211013669069-o75mprtgoilup1fu9pl8ttgpbs8b81bn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.craftsmen",
+            "certificate_hash": "a4d2e4cf14af4fcc407efc1ed2288b829385e32d"
+          }
+        },
+        {
+          "client_id": "211013669069-3rlu259dh5bpa7r7vooss6eokc37fdr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI7sfx4L6voWu_ocLCYIjGPZTSCNWhbRs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211013669069-3rlu259dh5bpa7r7vooss6eokc37fdr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">injaz</string>
+
+    //activity profile xml
+    <string name="activty_profile_name">Name</string>
+    <string name="activity_profile_phone_number">Phone </string>
+    <string name="activity_profile_address">Address</string>
+    <string name="activity_profile_city">City</string>
+    <string name="activity_profile_type">Type</string>
+
+    //comments ryc xml
+    <string name="comments_ryc_comment">Comment</string>
+
+    //details_order xml
+    <string name="details_order">"Order Details"</string>
+    <string name="details_order_details">Details</string>
+    <string name="details_order_place">Place</string>
+    <string name="details_order_order_time">Order Time</string>
+    <string name="details_order_comment">Comment</string>
+
+    //fragment_dashboard_user xml
+    <string name="fragment_dashboard_user_Carpentery">Carpentery</string>
+    <string name="fragment_dashboard_user_mechanics">Mechanics</string>
+    <string name="fragment_dashboard_user_plumbing">Plumbing</string>
+    <string name="fragment_dashboard_user_electricity_work">Electricity Work</string>
+    <string name="fragment_dashboard_user_painting_work">Painting Work</string>
+    <string name="fragment_dashboard_user_paving_work">Paving Work</string>
+
+    //fragment_message xml
+    <string name="fragment_message_no_messages">No Messages</string>
+
+    //login xml
+    <string name="login_email_phone">Email or Phone </string>
+    <string name="login_password">Password</string>
+    <string name="login_login_button">Login</string>
+    <string name="login_sign_up_button">Sign Up</string>
+
+    //messages xml
+    <string name="messages_comment">Comment</string>
+
+    //request_item xml
+    <string name="request_item_details">Details</string>
+    <string name="request_item_place">Place</string>
+    <string name="request_item_order_time">Order Time</string>
+
+    //signup_user xml
+    <string name="sign_up_user_name">Name</string>
+    <string name="sign_up_user_email">Email</string>
+    <string name="sign_up_user_password">Password</string>
+    <string name="sign_up_user_type">Type</string>
+    <string name="sign_up_user_phone_number">Phone Number</string>
+    <string name="sign_up_user_address">Address</string>
+    <string name="sign_up_user_work_place">Work Place</string>
+    <string name="sign_up_user_add_picture_button">Add Picture</string>
+    <string name="cant_be_empty">You have to enter a value</string>
+    <string name="sign_up_user_sign_up_button">Sign Up</string>
+
+    //menu main_ac_menu xml
+    <string name="main_ac_menu_user_account">My Account</string>
+    <string name="main_ac_menu_sign_out">Sign Out</string>
+
+    //menu profile_menu xml
+    <string name="profile_menu_send_message">Send a message</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="password">رمز المرور</string>
+    <string name="city">City</string>
+    <string name="job">Job</string>
+    <string name="gender">Gender</string>
+    <string name="time">Time</string>
+    <string name="google_maps_key">AIzaSyD8tE0mHXyAh8Vz721LHAuM198V0VXIhEk</string>
+    <string name="NoConnection">please check your internet connection</string>
+    <string name="add_station">add station</string>
+
+</resources>
